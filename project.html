@@ -1,0 +1,240 @@
+<html>
+
+	<head>
+		<title> Environmental Exploration </title>
+		<link href="project.css" type="text/css" rel="stylesheet">
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+	
+	<body>
+	
+	<div class="container">
+	  <a href="#home">Home</a>
+	  <a href="#about">About</a>
+	  <a href="#mapdescription">Map</a>
+	  <a href="#download">Download</a>
+	</div>
+	
+	<br>
+
+    <h1>Environmental Exploration</h1>
+	<img src="C:\Users\jazmi\Documents\Csc 130\Final project\vines1.jpeg">
+	<br>
+	
+	<div class="home">
+	
+    <h3>Environmental Exploration Vision Statement: </h3>
+	<p>"Inspiring people to explore their physical environment
+	through the help of extended reality. Our goal is to provide the suitable applications needed to expand 
+	accessibility for people with disabilities and mobility struggles while allowing the same access to 
+	beautiful hidden landscapes in their area."</p>
+		</div>
+	<br>
+	<img src="C:\Users\jazmi\Documents\Csc 130\Final project\vines1.jpeg">
+	<br>
+	
+	<div id="about"> <h3>About</h3>
+	
+	<button onclick="myFunction1()"><h4> What part is 2D and what part is 3D? </h4></button><br><br>
+	<div id="whatpart">
+	
+	<p> 2D: Our website shows a map of different activities based on the physical environment. 
+		The map shows a general overview of each area based on your location.<br><br><br>
+		3D: Once hitting a specific pinpoint for a location, users can see 3d images of the 
+		locations and explore before actually going.</p>
+	</div>
+	
+	<button onclick="myFunction2()"><h4> What is the hypothesis?</h4></button><br><br>
+	<div id="hypothesis">
+	<p> Using extended reality within the physical environment can lead to greater accessibility 
+		for exploring the natural world.</p>
+	</div>
+	
+	<button onclick="myFunction3()"><h4> Why is this idea important?</h4></button><br><br>
+	<div id="ideaimportant">
+	<p> People spend a lot of wasted time looking for nice hiking spots, hidden beachs, and 
+		artifacts. Having this application would aid in time efficiency and planning, as well as
+		having a more inclusive accessibility needs, such as wheelchair accessibility, elderly, or
+		mobility issues.</p>
+	</div>
+		
+	<button onclick="myFunction4()"><h4> Using XR emotionally to immerse the user?</h4></button><br><br>
+	<div id="emotionally">
+	<p> Focusing on the lack of accessibility for people wanting to explore the physical
+		environment, as well as focusing on using the 3D feature at home for an individual
+		to access their own needs before exploring the specific location.</p>
+	</div>	
+	
+	<button onclick="myFunction5()"><h4> Three reasons why this idea is or is not good for XR.</h4></button><br><br>
+	<div id="goodforXR">
+	<ul>
+		<li> Pro: Able to use at home on a mobile phone</li>
+		<li> Pro: Easier to visualize</li>
+		<li> Con: Need a base knowledge for technology, additional technology programs, and 
+		how to use it which could be harder for elderly</li>
+	</ul>
+	</div>
+	
+	<button onclick="myFunction6()"><h4> Three reasons why this idea is or is not better in 3D.</h4></button><br><br>
+	<div id="betterin3D">
+	<ul>
+		<li> Pro: 3D allows for a better understanding of the area compared to photos</li>
+		<li> Con: Harder to code and program </li>
+		<li> Con: Need resources and be able to go to the location before to create in 3D</li>
+		</ul>
+	</div>
+		
+	<button onclick="myFunction7()"><h4> AR, MR, and VR possibility </h4></button><br><br>
+	<div id="possibility">
+	
+	<ul>
+		<li> AR: A general basis on what the locations look like in 3D, able to use on phone.</li>
+		<li> MR: More in depth and able to interact for a deeper understanding of location.</li>
+		<li> VR: If unable to visit the physical environment location, can still visit through 
+			virtual reality.</li>
+			</ul>
+	</div>
+	
+	<button onclick="myFunction8()"><h4>Auditing your idea</h4></button><br><br>
+	<div id="auditing">
+	
+	<p>Similar idea: Findery - A free app for Iphone and Android available worldwide, lets people view trivia
+	and stories about favorite locations, whether it’s a building, beach, or a landmark like
+	the Eiffel Tower.</p>
+	<p> Does not exist in 3D</p>
+	</div>
+	
+	<button onclick="myFunction9()"><h4> What could you do in your project in 3D that you can't do in 2D?</h4></button><br><br>
+	<div id="projectin3d">
+	<p> Going to the locations in the environment from your technology at home, better understanding
+	of terrain</p>
+	</div>
+
+	<button onclick="myFunction10()"><h4>Design principles for hypothesis</h4></button><br><br>
+	<div id="designprinciples">
+	<ul>
+		<li> Useful: Going to the locations in the environment from your technology at home, better 
+		understanding of terrain.</li>
+		<li> Usable: The design needs to focus on interactive map apps in VR and how this would be
+		implemented into the app.</li>
+		<li> Desirable: People can gain checkpoints and goals with the more locations they visit as 
+		well as uploading photos and comments.</li>
+		<li> Valuable: Greater enjoyment for the people within the community, allowing people with 
+		disabilities to explore the natural world with interest and risk-free.</li>
+		<li> Findable: Having an interactive map of the locations as well as directions to the place.</li>
+		<li> Accessible and Inclusive: Being able to explore the app at home and assessing your own needs
+		before leaving for the location</li>
+		</ul>
+	</div>
+	
+	<h3> Empathy map</h3>
+	<h4>Meet Sam!</h4>
+	<table>
+	<tr>
+		<td>Think and Feel:<br><p>Sam wants to go to a new beach location but does not know if she would be able 
+		bring her wheelchair due to mobility issues.</p><br></td>
+		<td>Hear:<br><p>Sam’s friend has been to this same location but never accessed if it is wheelchair
+		accessible.</p><br></td>
+	</tr>
+	<tr>
+		<td>Say and Do:<br><p>“I don’t want to waste time going there and then having to turn around because
+		it is not wheelchair accessible.” Downloads Environmental Exploration</p><br></td>
+		<td>See:<br><p>Sam can explore the 3D app and access her own needs at home before leaving.</p><br></td>
+	</tr>
+	<tr>
+		<td>Pains:<br><p>Anxious because of the uncertainty of environment terrain</p><br>
+		Gains: <br><p>Saves time and piece of mind.</p><br></td>
+		<td>Where:<br><p>The map shows specific pinpoints based on locations submitted by other 
+		users.</p><br></td>
+	</tr>
+	<tr>
+		<td>3D will help...<br><p>Better representation for the user.</p><br></td>
+		<td>XR will help...<br><p>exploring the physical environment virtually if accessibility needs
+		cannot be met.</p><br></td>
+	</tr>
+	
+		</table>
+	
+			
+			
+			
+			
+		</div>
+	<br>
+	<img src="C:\Users\jazmi\Documents\Csc 130\Final project\vines1.jpeg">
+	<br>
+	
+
+	
+<div id="mapdescription">
+	<h3>Map</h3>
+	<p> Our map allows for users to search their local area while assessing the pinpoints provided
+	for specific locations based on your preference of beachs, hikes, gardens, or hidden artifacts. Once
+	a pinpoint is selected by the user, 3D images and extended reality options can be accessed.</p>
+ 
+ 
+ </div>
+ 
+ <div id="map">
+ 
+	</div>
+	
+	
+	<button onclick="addLocation()">Add location</button><br>
+	<div class="addLocation">
+	</div>
+
+	<br>
+	<img src="C:\Users\jazmi\Documents\Csc 130\Final project\vines1.jpeg">
+	<br>
+	
+	<div id="download">
+		<h3>Download</h3>
+		<p>Download the 3D app!</p>
+		<button onclick="myDev()">www.EnvironmentalExploration.ca</button>
+  </div>
+<br>
+<div class="input">
+<div class="weather">Check your local weather status by your city!</div>
+	<div class="container2">
+		<div class="item">Location:<input type="text" id="cityName"></div>
+		<div class="item"><button onclick="submitWeather()">Submit</button></div>
+		
+	</div>
+
+<br><br>
+
+<div id="output">
+<div class="title">Results:</div>
+	<table>
+		<tr><td>City Name:</td><td id="resultCity"></td></tr>
+		<tr><td>Weather:</td><td id="resultWeather"></td></tr>
+	</table>
+</div>
+<br><br>
+<div id="raw">
+</div>
+
+
+
+
+
+	<div class="userinfo">
+	<h3> Enter your info to save your progress!</h3>
+	Name: <input type="text" id="name_input"><br>
+	Email: <input type="text" id="email_input"><br>
+	<button onclick="sumbitInfo()">Submit Info!</button>
+	</div>
+	
+	
+	
+	</body>
+ <script src="project.js"></script>
+</html>
+

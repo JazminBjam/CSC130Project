@@ -1,0 +1,184 @@
+body{
+	background-color: #AFE1AF;
+	font-family: Helvetica, sans-serif;
+	}
+body h1{ font-family: Optima, sans-serif;
+	color: #153715;
+	text-align: center;
+	font-size: 45px;
+	
+}
+img{
+	width:500px;
+	height:200px;
+	
+}
+.home{
+	
+	height: 200px;
+	padding: 15px;
+	background-color: #b3e0ff;
+	
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+.home h3 {
+	font-size: 20px;
+	font-family: Helvetica, sans-serif;
+	color: #004d80;
+	
+}
+
+.home p{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+	font-family: Helvetica, sans-serif;
+}
+
+.content{
+	padding-left: 30px;
+}
+	
+.container {
+	list-style: none;
+	padding: 0;
+	background-color: #097969;
+	
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.container a {
+	text-decoration: none;
+	padding: 15px;
+	color: white;
+}
+
+
+.button {
+	background-color: #153715;
+	border: none;
+	color: white;
+}
+button {
+	width: 100%;
+	}
+
+
+#whatpart {
+	display: none;
+	background-color: #b3e0ff;
+	padding: 15px;
+}
+
+#hypothesis {
+	display: none;
+	background-color: #b3e0ff;
+	padding: 15px;
+}
+
+#ideaimportant {
+	display: none;
+	background-color: #b3e0ff;
+	padding: 15px;
+}
+#emotionally {
+	display: none;
+	background-color: #b3e0ff;
+	padding: 15px;
+}
+#goodforXR {
+	display: none;
+	background-color: #b3e0ff;
+	padding: 15px;
+}
+#betterin3D {
+	display: none;
+	background-color: #b3e0ff;
+	padding: 15px;
+}
+#possibility {
+	display: none;
+	background-color: #b3e0ff;
+	padding: 15px;
+}
+#auditing {
+	display: none;
+	background-color: #b3e0ff;
+	padding: 15px;
+}
+#projectin3d {
+	display: none;
+	background-color: #b3e0ff;
+	padding: 15px;
+}
+
+#designprinciples {
+	display: none;
+	background-color: #b3e0ff;
+	padding: 15px;
+}
+
+
+
+#map { height: 300px; }
+
+#about {
+	font-size: 20px;
+	font-family: Helvetica, sans-serif;
+
+	
+}
+table, th, td{
+	border: 1px solid black;
+	width: 800px;
+	height: 100px;
+}
+	
+#mapdescription h3,p{
+	font-size: 20px;
+	font-family: Helvetica, sans-serif;
+}
+
+.input {
+  border: 1px solid black;
+  background: #b3e0ff;
+  padding: 10px;
+  width: 95%;
+}
+
+.title {
+  border-bottom: 1px solid darkgray;
+  margin-bottom: 5px;
+}
+
+.container2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#output {
+  display: none;
+  border: 1px solid black;
+  background: #b3e0ff;
+  padding: 10px;
+  width: 95%;
+}
+
+
